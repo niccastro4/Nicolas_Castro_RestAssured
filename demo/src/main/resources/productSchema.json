@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "title": "Root Schema",
+  "type": "object",
+  "default": {},
+  "required": [
+    "id",
+    "title",
+    "description",
+    "price",
+    "discountPercentage",
+    "rating",
+    "stock",
+    "brand",
+    "category",
+    "thumbnail",
+    "images"
+  ],
+  "properties": {
+    "id": {
+      "title": "The id Schema",
+      "type": "integer",
+      "default": 0
+    },
+    "title": {
+      "title": "The title Schema",
+      "type": "string",
+      "default": ""
+    },
+    "description": {
+      "title": "The description Schema",
+      "type": "string",
+      "default": ""
+    },
+    "price": {
+      "title": "The price Schema",
+      "type": "integer",
+      "default": 0
+    },
+    "discountPercentage": {
+      "title": "The discountPercentage Schema",
+      "type": "integer",
+      "default": 0
+    },
+    "rating": {
+      "title": "The rating Schema",
+      "type": "number",
+      "default": 0
+    },
+    "stock": {
+      "title": "The stock Schema",
+      "type": "integer",
+      "default": 0
+    },
+    "brand": {
+      "title": "The brand Schema",
+      "type": "string",
+      "default": ""
+    },
+    "category": {
+      "title": "The category Schema",
+      "type": "string",
+      "default": ""
+    },
+    "thumbnail": {
+      "title": "The thumbnail Schema",
+      "type": "string",
+      "default": ""
+    },
+    "images": {
+      "title": "The images Schema",
+      "type": "array",
+      "default": [],
+      "items": {
+        "title": "A Schema",
+        "type": "string"
+      }
+    }
+  }
+}
